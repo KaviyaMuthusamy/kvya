@@ -10,10 +10,13 @@ int main()
     {
         cout<<"Negative";
     }
-    else
+    else if(n>0)
     {
         cout<<"Positive";
     }
-
+    else
+    {
+        cout<<"Zero";
+    }
     return 0;
 }
