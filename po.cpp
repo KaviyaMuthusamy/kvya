@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin>>n;
-    if(n<0)
+    int x;
+    cin>>x;
+    if(x<0)
     {
         cout<<"Negative";
     }
-    else if(n>0)
+    else if(x>0)
     {
         cout<<"Positive";
     }
